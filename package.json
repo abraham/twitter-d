@@ -1,0 +1,27 @@
+{
+  "name": "twitter-d",
+  "version": "0.1.0",
+  "description": "TypeScript definitions for Twitter API objects",
+  "main": "",
+  "types": "index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abraham/twitter-d.git"
+  },
+  "keywords": [
+    "twitter",
+    "twitterapi",
+    "typescript",
+    "types",
+    "tweet",
+    "status",
+    "user"
+  ],
+  "author": "Abraham Williams <abraham@abrah.am>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abraham/twitter-d/issues"
+  },
+  "homepage": "https://github.com/abraham/twitter-d"
+}
