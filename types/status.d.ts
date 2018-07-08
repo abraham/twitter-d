@@ -39,4 +39,7 @@ export interface Status {
   source: string;
   truncated: boolean;
   user: User;
+  withheld_copyright?: boolean | null;
+  withheld_in_countries?: string[] | null;
+  withheld_scope?: string | null;
 }
