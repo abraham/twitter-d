@@ -25,8 +25,8 @@ export interface User {
   name: string;
   notifications?: null;
   profile_background_color: string;
-  profile_background_image_url_https: string;
-  profile_background_image_url: string;
+  profile_background_image_url_https?: string | null;
+  profile_background_image_url?: string | null;
   profile_background_tile: boolean;
   profile_banner_url?: string | null;
   profile_image_url_https: string;
