@@ -4,7 +4,9 @@
   "description": "TypeScript definitions for Twitter API objects",
   "main": "",
   "types": "index.d.ts",
-  "scripts": {},
+  "scripts": {
+    "test": "npx tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/abraham/twitter-d.git"
@@ -23,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/abraham/twitter-d/issues"
   },
-  "homepage": "https://github.com/abraham/twitter-d"
+  "homepage": "https://github.com/abraham/twitter-d",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
 }
