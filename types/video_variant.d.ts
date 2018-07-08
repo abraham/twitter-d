@@ -1,5 +1,5 @@
 export interface VideoVariant {
-  bitrate: number;
+  bitrate?: number | null;
   content_type: string;
   url: string;
 }

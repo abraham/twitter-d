@@ -1,7 +1,9 @@
+import { AdditionalMediaInfo } from './additional_media_info';
 import { Sizes } from './sizes';
 import { VideoInfo } from './video_info';
 
 export interface MediaEntity {
+  additional_media_info?: AdditionalMediaInfo | null;
   display_url: string;
   expanded_url: string;
   id_str: string;

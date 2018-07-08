@@ -45,4 +45,5 @@ export interface User {
   url?: string | null;
   utc_offset?: null;
   verified: boolean;
+  withheld_in_countries?: string[] | null;
 }
