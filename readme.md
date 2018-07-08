@@ -17,7 +17,7 @@ npm install --save-dev twitter-d
 Usage
 ----
 
-The main two interfaces provided are [`Status`](https://github.com/abraham/twitter-d/blob/master/types/status.d.ts) and [`User`](https://github.com/abraham/twitter-d/blob/master/types/user.d.ts) although there are a number of related interfaces like [`media_entity`](https://github.com/abraham/twitter-d/blob/master/types/media_entity.d.ts) and [`additional_media_info`](https://github.com/abraham/twitter-d/blob/master/types/additional_media_info.d.ts).
+The main two interfaces provided are [`Status`](https://github.com/abraham/twitter-d/blob/master/types/status.d.ts) and [`User`](https://github.com/abraham/twitter-d/blob/master/types/user.d.ts) although there are a number of related interfaces like [`MediaEntity`](https://github.com/abraham/twitter-d/blob/master/types/media_entity.d.ts) and [`AdditionalMediaInfo`](https://github.com/abraham/twitter-d/blob/master/types/additional_media_info.d.ts).
 
 ```
 import { Status as Tweet, User } from 'twitter-d';
