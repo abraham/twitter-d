@@ -11,7 +11,7 @@ Install
 ----
 
 ```
-npm install --save-dev abraham/twitter-d
+npm install --save-dev twitter-d
 ```
 
 Usage
