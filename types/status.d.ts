@@ -3,6 +3,7 @@ import { Entities } from './entities';
 import { ExtendedEntities } from './extended_entities';
 import { Place } from './place';
 import { QuotedStatusPermalink } from './quoted_status_permalink';
+import { Scope } from './scope';
 import { User } from './user';
 
 export interface Status {
@@ -34,6 +35,7 @@ export interface Status {
   retweet_count: number;
   retweeted_status?: Status | null;
   retweeted: boolean;
+  scopes?: Scope | null;
   source: string;
   truncated: boolean;
   user: User;

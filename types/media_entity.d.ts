@@ -1,4 +1,5 @@
 import { Sizes } from './sizes';
+import { VideoInfo } from './video_info';
 
 export interface MediaEntity {
   display_url: string;
@@ -15,4 +16,5 @@ export interface MediaEntity {
   source_user_id?: number | null;
   type: string;
   url: string;
+  video_info?: VideoInfo | null;
 }
