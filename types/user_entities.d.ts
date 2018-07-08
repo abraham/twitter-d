@@ -1,7 +1,7 @@
-import { Description } from './description';
-import { Url } from './url';
+import { UserDescriptionEntity } from './user_description_entity';
+import { UserUrlEntity } from './user_url_entity';
 
 export interface UserEntities {
-  description: Description;
-  url?: Url | null;
+  description: UserDescriptionEntity;
+  url?: UserUrlEntity | null;
 }

@@ -1,5 +1,5 @@
 import { UrlEntity } from './url_entity';
 
-export interface Url {
+export interface UserUrlEntity {
   urls?: UrlEntity[] | null;
 }
