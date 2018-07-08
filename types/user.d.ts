@@ -32,6 +32,7 @@ export interface User {
   profile_image_url_https: string;
   profile_image_url: string;
   profile_link_color: string;
+  profile_location?: null;
   profile_sidebar_border_color: string;
   profile_sidebar_fill_color: string;
   profile_text_color: string;
@@ -40,10 +41,10 @@ export interface User {
   screen_name: string;
   status?: Status;
   statuses_count: number;
-  time_zone?: null;
+  time_zone?: string | null;
   translator_type: string;
   url?: string | null;
-  utc_offset?: null;
+  utc_offset?: number | null;
   verified: boolean;
   withheld_in_countries?: string[] | null;
 }
