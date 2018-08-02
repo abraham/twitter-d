@@ -2,9 +2,10 @@
   "name": "twitter-d",
   "version": "0.1.1",
   "description": "TypeScript definitions for Twitter API objects",
-  "main": "",
+  "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "prepublishOnly": "npx tsc",
     "test": "npx tsc"
   },
   "repository": {
