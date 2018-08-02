@@ -1,6 +1,11 @@
 twitter.d.ts
 ====
 
+[![Version Status](https://img.shields.io/npm/v/twitter-d.svg?style=flat&label=version&colorB=4bc524)](https://npmjs.com/package/twitter-d)
+[![Build Status](https://img.shields.io/travis/abraham/twitter-d.svg?style=flat&label=build)](https://travis-ci.org/abraham/twitter-d)
+[![Dependency Status](https://david-dm.org/abraham/twitter-d.svg?style=flat)](https://david-dm.org/abraham/twitter-d)
+[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/twitter-d.svg?style=flat&colorB=4bc524)](https://bundlephobia.com/result?p=twitter-d)
+
 TypeScript definitions for Twitter API objects.
 
 Carefully constructed with the data from over 400,000 Twitter API status objects. Format will match `tweet_mode="extended"` and `include_entities=true` parameters set.
