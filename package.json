@@ -1,6 +1,6 @@
 {
   "name": "twitter-d",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "TypeScript definitions for Twitter API objects",
   "main": "index.js",
   "types": "index.d.ts",
