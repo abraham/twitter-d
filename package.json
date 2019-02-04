@@ -33,6 +33,9 @@
   "renovate": {
     "extends": [
       "config:base"
-    ]
+    ],
+    "devDependencies": {
+      "automerge": true
+    }
   }
 }
