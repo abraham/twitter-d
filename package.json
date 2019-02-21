@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/abraham/twitter-d",
   "devDependencies": {
-    "typescript": "3.3.3"
+    "typescript": "3.3.3333"
   },
   "renovate": {
     "extends": [
