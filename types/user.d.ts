@@ -48,3 +48,8 @@ export interface User {
   verified: boolean;
   withheld_in_countries?: string[] | null;
 }
+
+export interface TrimmedUser {
+  id_str: string;
+  id: number;
+}
