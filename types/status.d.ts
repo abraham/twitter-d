@@ -4,7 +4,7 @@ import { ExtendedEntities } from './extended_entities';
 import { Place } from './place';
 import { QuotedStatusPermalink } from './quoted_status_permalink';
 import { Scope } from './scope';
-import { User, TrimmedUser } from './user';
+import { User } from './user';
 
 export interface Status {
   contributors?: null;
@@ -38,7 +38,7 @@ export interface Status {
   scopes?: Scope | null;
   source: string;
   truncated: boolean;
-  user: User | TrimmedUser;
+  user: User;
   withheld_copyright?: boolean | null;
   withheld_in_countries?: string[] | null;
   withheld_scope?: string | null;
