@@ -1,7 +1,7 @@
 import { Status } from './status';
 import { UserEntities } from './user_entities';
 
-export interface User {
+export interface FullUser {
   contributors_enabled: boolean;
   created_at: string;
   default_profile_image: boolean;
@@ -48,3 +48,10 @@ export interface User {
   verified: boolean;
   withheld_in_countries?: string[] | null;
 }
+
+export interface TrimmedUser {
+  id_str: string;
+  id: number;
+}
+
+export type User = TrimmedUser | FullUser
