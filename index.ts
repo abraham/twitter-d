@@ -12,7 +12,7 @@ export { Sizes } from './types/sizes';
 export { Status } from './types/status';
 export { SymbolEntity } from './types/symbol_entity';
 export { UrlEntity } from './types/url_entity';
-export { User } from './types/user';
+export { FullUser, TrimmedUser, User } from './types/user';
 export { UserDescriptionEntity } from './types/user_description_entity';
 export { UserEntities } from './types/user_entities';
 export { UserMentionEntity } from './types/user_mention_entity';
