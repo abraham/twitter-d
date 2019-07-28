@@ -17,3 +17,9 @@ export { UserDescriptionEntity } from './types/user_description_entity';
 export { UserEntities } from './types/user_entities';
 export { UserMentionEntity } from './types/user_mention_entity';
 export { UserUrlEntity } from './types/user_url_entity';
+
+import { FullUser, User } from './types/user';
+
+export function isFullUser(user: User): user is FullUser {
+  return 'screen_name' in user;
+}
