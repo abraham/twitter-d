@@ -36,7 +36,7 @@
     "eslint": "7.3.1",
     "eslint-plugin-import": "2.22.0",
     "pkg-ok": "2.3.1",
-    "typescript": "3.9.5"
+    "typescript": "3.9.6"
   },
   "renovate": {
     "extends": [
