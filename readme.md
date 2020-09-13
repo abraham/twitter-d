@@ -8,7 +8,7 @@ twitter.d.ts
 
 TypeScript definitions for Twitter API objects.
 
-Carefully constructed with the data from over 400,000 Twitter API status objects. Format will match `tweet_mode="extended"` and `include_entities=true` parameters set.
+Carefully constructed with the data from over 400,000 Twitter API status objects. Format will match [`tweet_mode="extended"`](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/overview/intro-to-tweet-json#extendedtweet) and [`include_entities=true`](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/overview/extended-entities-object) parameters set.
 
 _Note that the presence of field is not an indication of it being current and accurate part of the documented Twitter API._
 
