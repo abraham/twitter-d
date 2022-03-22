@@ -1,5 +1,5 @@
-import { Attributes } from './attributes';
-import { BoundingBox } from './bounding_box';
+import type { Attributes } from './attributes';
+import type { BoundingBox } from './bounding_box';
 
 export interface Place {
   attributes: Attributes;

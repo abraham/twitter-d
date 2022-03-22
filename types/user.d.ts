@@ -1,5 +1,5 @@
-import { Status } from './status';
-import { UserEntities } from './user_entities';
+import type { Status } from './status';
+import type { UserEntities } from './user_entities';
 
 export interface FullUser {
   created_at: string;

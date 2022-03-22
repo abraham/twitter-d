@@ -25,7 +25,7 @@ Usage
 The main two interfaces provided are [`Status`](https://github.com/abraham/twitter-d/blob/master/types/status.d.ts) and [`User`](https://github.com/abraham/twitter-d/blob/master/types/user.d.ts) although there are a number of related interfaces like [`MediaEntity`](https://github.com/abraham/twitter-d/blob/master/types/media_entity.d.ts) and [`AdditionalMediaInfo`](https://github.com/abraham/twitter-d/blob/master/types/additional_media_info.d.ts).
 
 ```typescript
-import { Status as Tweet, User } from 'twitter-d';
+import type { Status as Tweet, User } from 'twitter-d';
 
 function getTweet(): Tweet { /* ... */ }
 function getUser(): User { /* ... */ }
@@ -43,7 +43,7 @@ User
 In some contexts, using `trim_user=true` on [GET statuses/mentions_timeline](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-mentions_timeline), you might get a user object that only includes `id` and `id_str`. To test if a `User` value is a `FullUser` you can use the `isFullUser` helper function.
 
 ```typescript
-import { isFullUser, User } from 'twitter-d';
+import type { isFullUser, User } from 'twitter-d';
 
 function logUser(user: User) {
   if (isFullUser(user)) {
