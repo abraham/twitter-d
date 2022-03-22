@@ -1,10 +1,10 @@
-import { Coordinates } from './coordinates';
-import { Entities } from './entities';
-import { ExtendedEntities } from './extended_entities';
-import { Place } from './place';
-import { QuotedStatusPermalink } from './quoted_status_permalink';
-import { Scope } from './scope';
-import { TrimmedUser, User } from './user';
+import type { Coordinates } from './coordinates';
+import type { Entities } from './entities';
+import type { ExtendedEntities } from './extended_entities';
+import type { Place } from './place';
+import type { QuotedStatusPermalink } from './quoted_status_permalink';
+import type { Scope } from './scope';
+import type { TrimmedUser, User } from './user';
 
 export interface Status {
   contributors?: null;

@@ -1,6 +1,6 @@
-import { AdditionalMediaInfo } from './additional_media_info';
-import { Sizes } from './sizes';
-import { VideoInfo } from './video_info';
+import type { AdditionalMediaInfo } from './additional_media_info';
+import type { Sizes } from './sizes';
+import type { VideoInfo } from './video_info';
 
 export interface MediaEntity {
   additional_media_info?: AdditionalMediaInfo | null;

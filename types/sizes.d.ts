@@ -1,4 +1,4 @@
-import { Size } from './size';
+import type { Size } from './size';
 
 export interface Sizes {
   large: Size;

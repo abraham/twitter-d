@@ -1,4 +1,4 @@
-import { UrlEntity } from './url_entity';
+import type { UrlEntity } from './url_entity';
 
 export interface UserUrlEntity {
   urls?: UrlEntity[] | null;

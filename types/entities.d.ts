@@ -1,8 +1,8 @@
-import { HashtagEntity } from './hashtag_entity';
-import { MediaEntity } from './media_entity';
-import { SymbolEntity } from './symbol_entity';
-import { UrlEntity } from './url_entity';
-import { UserMentionEntity } from './user_mention_entity';
+import type { HashtagEntity } from './hashtag_entity';
+import type { MediaEntity } from './media_entity';
+import type { SymbolEntity } from './symbol_entity';
+import type { UrlEntity } from './url_entity';
+import type { UserMentionEntity } from './user_mention_entity';
 
 export interface Entities {
   hashtags?: HashtagEntity[] | null;
